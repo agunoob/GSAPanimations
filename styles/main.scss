@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(233, 195, 255);
+}
+
+.cosik
+{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    background-color: rgb(174, 0, 255);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin: auto;
+}

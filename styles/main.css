@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e9c3ff;
+}
+
+.cosik {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100px;
+  background-color: #ae00ff;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */
