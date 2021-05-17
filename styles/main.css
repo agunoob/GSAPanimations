@@ -6,20 +6,30 @@
 }
 
 body {
-  background-color: #e9c3ff;
+  background-color: red;
 }
 
-.cosik {
+body .container {
+  background-color: #fbff00;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .pic {
   position: absolute;
-  top: 50vh;
-  left: 50vw;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 100px;
-  background-color: #ae00ff;
-  text-align: center;
-  padding: 20px;
-  color: white;
-  margin: auto;
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .second-container {
+  background-color: yellowgreen;
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
